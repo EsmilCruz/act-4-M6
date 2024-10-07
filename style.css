@@ -1,0 +1,275 @@
+body{
+    background-color: rgb(18, 12, 12);
+    
+}
+
+.buscador{
+    margin-left: 100px;
+}
+
+
+.buscador input{
+    height: 30px;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color:  #f2f2f2;
+    margin: -7px;
+}
+
+.act{
+    display: inline;
+    margin-right: 100px;
+}
+
+/*-----------------------------------------------------------preguntas*/
+
+.preguntas{
+    background-color: #f2f2f2;
+    padding: 4px;
+    margin: 20px;
+    border-radius: 4px;
+    border-style: inset;
+
+}
+
+.preguntas li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4px;
+    padding-left: 22px;
+}
+
+.preguntas p{
+    text-align: justify;
+    width: 950px;
+    padding: 9px;
+}
+
+/*´-----------------------------------------------------presentacion*/
+.presen img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    border: 2px solid red;
+}
+
+.ima {
+    border-radius: 100px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.presen {
+    background-color: black;
+    margin: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.presen h2 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.p1 {
+    display: inline;
+}
+
+.pp {
+    text-align: justify;
+    width: 600px;
+}
+
+
+
+
+/*----------------------------------------------------------------------Leer mas*/
+
+.masc{
+    display: none;
+    width: 600px;
+    text-align: justify;
+}
+
+.letra {
+    cursor: pointer;
+}
+
+.expa:checked ~ .masc {
+    display: inline;
+}
+
+.exp{
+    display: block;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.exp:hover{
+    color: blue;
+}
+
+.expa:checked + .exp + .pro {
+    display: block;
+}
+
+/*--------------------------------------------------------------------------Tarjetas*/
+.tarje{
+    margin: 20px;
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imag{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 9px;
+    
+}
+
+.pro{
+    border-style:solid;
+    border-color: black;
+    color: #f2f2f2;
+    padding: 9px;
+    display: none;
+    margin-top: 9px;
+    border-radius: 6px;
+    text-align: justify;
+}
+
+.t1, .t2, .t3 {
+    background-color: rgb(12, 10, 55);
+    width: 380px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+    
+}
+
+.tarje h3{
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.t1:hover{
+    transform: scale(1.1);
+}
+
+.t2:hover{
+    transform: scale(1.1);
+}
+
+.t3:hover{
+    transform: scale(1.1);
+}
+
+/*----------------------------------------------------------------------Menu*/
+
+.menu1{
+    list-style: none;
+    padding: 7px;
+    background-color: #ccc;
+    border-style:ridge;
+    border-radius: 50;
+    box-shadow: black 5px;
+    margin-left: -40px;
+}
+
+.menu1 li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 1px;
+    border-style:initial;
+    padding: 5px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.subm{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 9px;
+    background-color: #ccc;
+    border-style:ridge;
+    border-radius: 4px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.subm li{
+    margin-top: 9px;
+    display: block;
+    margin-right: 35px;
+}
+
+li:hover .subm{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu1 li:hover{
+    background-color: #008CBA;
+}
+
+/*--------------------------------------------------------------------------Pie*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: -7px;
+}
+.contenido-pie {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.column {
+    width: 45%;
+    text-align: left;
+}
+.column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.column ul li {
+    margin-bottom: 5px;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hh1{
+    color: aliceblue;
+}
